@@ -36,6 +36,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
+  GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
 
 jobs:
   build:
